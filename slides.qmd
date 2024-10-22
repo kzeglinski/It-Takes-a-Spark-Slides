@@ -19,7 +19,7 @@ R Ladies Melbourne
 
 ## We are...
 
-Caitlin, Dionne and Lauren and we are from
+Dionne and Kathleen and we are from
 
 [R Ladies Melbourne]{.purple}.
 
@@ -116,7 +116,7 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 
 ## The COVID-19 pandemic of 2019
 
-::: columns
+::::: columns
 ::: {.column width="30%"}
 ![](presentation/TIME_March2020.png){width="300"}
 :::
@@ -128,11 +128,11 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 
 -   There are now several vaccines that have helped to reduce the severity of this infection
 :::
-:::
+:::::
 
 ## Norovirus Outbreak 2023
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](presentation/norovirus2023.png){width="500"}
 :::
@@ -146,13 +146,13 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 
 -   There is [no vaccine]{.purple} available for norovirus
 :::
-:::
+:::::
 
 ## What about bacteria! {data-menu-title="What about bacteria" background-color="#935d94" style="font-size:60px;padding: 5px "}
 
 ## Buruli ulcer
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
 ![Image: Institut Pasteur](presentation/buruli.jpg){width="500"}
 :::
@@ -166,7 +166,7 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 
 -   Mode of transmission not entirely understood but likely involves [mosquitoes]{.purple} and [possums]{.purple}
 :::
-:::
+:::::
 
 ## Who studies outbreaks
 
@@ -200,7 +200,7 @@ Source: [What is epidemiology and what does an epidemiologist do?](https://onlin
 
 ## What do we need to know about outbreaks
 
-::: columns
+::::: columns
 ::: {.column width="60%"}
 -   What is the problem ?
 
@@ -211,7 +211,7 @@ Source: [What is epidemiology and what does an epidemiologist do?](https://onlin
 
 ::: {.column width="40%"}
 :::
-:::
+:::::
 
 # You are a [disease detective]{.purple-emph} for today and you must help us solve a mysterious outbreak !
 
@@ -330,7 +330,7 @@ The answer prints in the `console`
 
 ## What does RStudio look like?
 
-![](RStudio.png)
+![](presentation/RStudio.png)
 
 ## R can be our [notebook]{.purple}
 
@@ -343,7 +343,7 @@ We can use `<-` or `=`\
 #| output-location: fragment
 #| code-line-numbers: "1|2"
 
-my_name <- "Caitlin"
+my_name <- "Joy"
 paste("My name is", my_name)
 ```
 
@@ -355,7 +355,7 @@ paste("My name is", my_name)
 #| echo: true
 #| output-location: fragment
 #| code-line-numbers: "1|2"
-several_names <- c("Caitlin", "Dionne", "Lauren")
+several_names <- c("Joy", "Anger", "Sadness")
 paste("My name is", several_names)
 ```
 
@@ -476,7 +476,7 @@ In `outbreak_data` we have several kinds of information and it's important to id
 
 The types of data we have to work with will determine how it is best to visualise !
 
-::: columns
+::::: columns
 ::: {.column width="45%"}
 A [scatter plot]{.purple}
 
@@ -507,7 +507,7 @@ mpg %>%
 
 [Notice the y-axis are things we count or measure but the x-axis are specific groups.]{style="font-size:30px;padding: 5px"}
 :::
-:::
+:::::
 
 ## Let's plot our `outbreak_data`
 
@@ -841,7 +841,7 @@ ggplot(data = symptoms,
 
 ## Bringing all the symptoms togther
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r symptoms_all2, fig.width=7, fig.height=4, fig.align='center'}
 #| echo: false
@@ -858,7 +858,7 @@ ggplot(data = symptoms,
 
 -   We really want to separate those that have a [YES]{.purple} in `Sickness`
 :::
-:::
+:::::
 
 ## We can filter this list to just those that are sick !
 
