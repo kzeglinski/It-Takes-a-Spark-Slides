@@ -3,7 +3,7 @@ format:
   revealjs:
     logo: presentation/logo.png
     code-overflow: wrap
-    fontsize: 0.9em
+    fontsize: 1.7em
     incremental: true
     css: [presentation/theme/theme.css]
 editor: visual
@@ -186,7 +186,7 @@ Many infectious diseases now have vaccines that mean outbreaks to these pathogen
 
 And many others too !
 
-##
+## 
 
 An [epidemiologist]{.purple} is someone who studies how...
 
